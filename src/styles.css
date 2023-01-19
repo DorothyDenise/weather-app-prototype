@@ -1,0 +1,55 @@
+h1 {
+  color: black;
+  font-size: 30px;
+  text-align: left;
+}
+
+h2 {
+  color: black;
+  font-size: medium;
+  text-align: left;
+}
+
+h3 {
+  color: black;
+  font-size: medium;
+  text-align: left;
+}
+
+h4 {
+  color: black;
+  text-decoration: underline;
+}
+.search-form {
+  margin-bottom: 20px;
+}
+
+.header-image {
+  position: relative;
+  top: -55px;
+  right: -3px;
+  height: 200px;
+  width: 200px;
+}
+
+.weather-image {
+  cursor: pointer;
+  padding: 10px 0px;
+  height: 100px;
+  width: 100px;
+}
+
+.weather-image:hover {
+  background: transparent;
+  opacity: 0.33;
+  cursor: pointer;
+}
+
+.card {
+  border: 1px solid black;
+  background: rgb(242, 242, 242);
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather app prototype</title>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"/> 
+  <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="container center-text">
+      <div class="row align-items-center">
+        <div class="card">
+          
+          <form class="search-form"> 
+            <div class="row">
+              <div class="col-9">
+        <input type="search" placeholder="search your city. . ." class="form-control btn-light"/>
+            </div>
+        <div class="col-3"> 
+      <input type="submit" value="search" class="form-control btn-light"/>
+      </div>
+          </div>
+      </form>
+
+        <h1>Houston,Texas</h1>
+        <h2>Sunday, January 15, 2023</h2>
+        <h3>Sunny 68 &#8457;</h3>
+        <div class="text-center image">
+          <img src="src/images/clear sun.png" class="header-image" />
+
+          <h4> Forcast for the next 5 days</h4>
+          <br>
+
+
+          <div class="row row-cols-5">
+            <div class="col">
+              <p>Mon</p>
+              <img src="src/images/cloudy.png" class="weather-image" />
+              <p><strong>55 &#8457; | 41 &#8457;</strong></p>
+            </div>
+
+              <div class="col">
+                <p>Tue</p>
+                <img
+                  src="src/images/partly cloudly.png"
+                  class="weather-image"
+                />
+                <p><strong>63 &#8457; | 51 &#8457;</strong></p>
+              </div>
+
+                <div class="col">
+                  <p>Wed</p>
+                  <img src="src/images/overcast.png" class="weather-image" />
+                  <p><strong>52 &#8457; | 40 &#8457;</strong></p>
+                  </div>
+
+                  <div class="col">
+                    <p>Thur</p>
+                    <img src="src/images/thunder.png" class="weather-image" />
+                    <p><strong>50 &#8457; | 33 &#8457;</strong></p>
+                    </div>
+
+                    <div class="col">
+                      <p>Fri</p>
+                      <div class="text-center">
+                        <img src="src/images/partly cloudly.png" class="weather-image"/>
+                        <p><strong>64 &#8457; | 53 &#8457;</strong></p>
+                      </div>
+      </div>
+    </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
